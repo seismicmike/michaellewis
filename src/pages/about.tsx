@@ -1,12 +1,9 @@
 import * as React from 'react';
-import { Link } from 'gatsby';
-import { StaticImage } from 'gatsby-plugin-image';
 import Section from '../components/Section';
 
 import Layout from '../components/layout';
 import Seo from '../components/seo';
 import PageHero from '../components/PageHero';
-import photo1 from '../assets/images/portrait.webp';
 import ImageHero from '../components/ImageHero';
 import Heading2 from '../components/heading2'; 
 import TextCopy from '../components/TextCopy';
@@ -15,7 +12,7 @@ const AboutPage = () => (
   <Layout>
     <>
       <PageHero title="About Me" />
-      <ImageHero imageAsset={photo1} alt="Me" />
+      <ImageHero imagePath="photo.webp" alt="Me" />
       <Section>
         <>
           <Heading2 text="Worship" />
