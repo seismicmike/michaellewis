@@ -7,7 +7,7 @@ import Close from '../assets/svgs/close.svg';
 import Linkedin from '../assets/svgs/linkedin.svg';
 import profilePic from '../assets/images/profile-pic.webp';
 import ResumeButton from "./ResumeButton";
-import resumeFile from '../assets/documents/Michael Lewis - Resume.pdf';
+import resumeFile from '../assets/documents/Michael-Lewis_Resume_2023-10-26.pdf';
 
 const navLinks = [
   {
@@ -27,6 +27,12 @@ const navLinks = [
     title: 'Resume',
     path: resumeFile,
     external: true
+  },
+  {
+    id: 5,
+    title: 'Recognition',
+    path: '/recognition',
+    external: false,
   },
   {
     id: 4,

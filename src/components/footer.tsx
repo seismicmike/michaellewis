@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 import '../styles/components/footer.scss';
 import Linkedin from '../assets/svgs/linkedin.svg';
-import resumeFile from '../assets/documents/Michael Lewis - Resume.pdf';
+import resumeFile from '../assets/documents/Michael-Lewis_Resume_2023-10-26.pdf';
 import Heading2 from './heading2';
 
 const navLinks = [
@@ -24,6 +24,12 @@ const navLinks = [
     title: 'Resume',
     path: resumeFile,
     external: true
+  },
+  {
+    id: 5,
+    title: 'Recognition',
+    path: '/recognition',
+    external: false,
   },
   {
     id: 4,
