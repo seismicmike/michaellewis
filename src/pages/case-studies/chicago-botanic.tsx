@@ -1,8 +1,6 @@
 import React from 'react';
 import Layout from '../../components/layout';
 import Seo from '../../components/seo';
-import image from '../../assets/images/chicago-botanic.webp';
-import eventCalendar from '../../assets/images/cbg-events.webp';
 import CaseStudyDetail from '../../components/CaseStudyDetail';
 
 const caseStudy = {
@@ -11,7 +9,7 @@ const caseStudy = {
   showDate: true,
   showLink: false,
   path: '/case-studies/chicago-botanic',
-  image: image,
+  image: "chicago-botanic.webp",
   sections: [
     {
       heading: 'Drupal Commerce',
@@ -32,7 +30,7 @@ const caseStudy = {
       ],
       images: [
         {
-          src: eventCalendar,
+          src: "cbg-events.webp",
           alt: 'CBG Event Calendar',
         }
       ]

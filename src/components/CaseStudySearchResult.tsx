@@ -1,12 +1,13 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import Heading3 from './heading3';
+import Image from './Image';
 
 export interface CaseStudySearchProps {
   id?: any;
   title: string;
   description: string;
-  asset: any;
+  asset: string;
   path: string;
   orientation?: 'left'|'right';
 }
@@ -21,7 +22,7 @@ const CaseStudySearchResult = ({
   <Link to={path}>
     <div className={`case-study-result sm:mb-16 sm:flex gap-16`}>
       <div className={`case-study-result__image mb-4 basis-1/2 ${(orientation == 'left') ? 'order-0' : 'order-2'}`}>
-        <img src={asset} />
+        <Image src={asset} alt={description} />
       </div>
       <div className="case-study-result__detail  basis-1/2">
         <div className="case-study-result__title">

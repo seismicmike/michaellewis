@@ -1,6 +1,8 @@
 import { Link } from "gatsby";
 import React from "react";
 import Heading3 from "./heading3";
+import ImageHero from "./ImageHero";
+import Image from "./Image";
 
 
 export interface CaseStudyProps {
@@ -22,7 +24,7 @@ const CaseStudyTeaser = ({
   <div className={`case-study-teaser mb-16 sm:mb-4 ${featured ? "" : "sm:mb-8"}`}>
     <Link to={path}>
       <div className="case-study-teaser__image mb-4">
-        <img src={asset} />
+        <Image src={asset} alt={description} />
       </div>
       <div className="case-study-teaser__detail">
         <div className="case-study-teaser__title">

@@ -1,10 +1,6 @@
 import React from 'react';
 import Layout from '../../components/layout';
 import Seo from '../../components/seo';
-import image from '../../assets/images/lutron-luxury.webp';
-import imageGalleryImage from '../../assets/images/lutron-image-gallery.webp';
-import contentHubImage from '../../assets/images/lutron-content-hub.webp';
-import hamptonsBarnhouseImage from '../../assets/images/lutron-hamptons-barnhouse.webp';
 import CaseStudyDetail from '../../components/CaseStudyDetail';
 
 const caseStudy = {
@@ -14,7 +10,7 @@ const caseStudy = {
   showLink: true,
   link: 'https://luxury.lutron.com',
   path: '/case-studies/lutron-luxury',
-  image: image,
+  image: "lutron-luxury.webp",
   sections: [
     {
       heading: 'Content Hub',
@@ -23,12 +19,12 @@ const caseStudy = {
       ],
       images: [
         {
-          src: contentHubImage,
+          src: "lutron-content-hub.webp",
           link: 'https://luxury.lutron.com/stories',
           alt: 'Lutron Luxury v2 Content Hub'
         },
         {
-          src: hamptonsBarnhouseImage,
+          src: "lutron-hamptons-barnhouse.webp",
           link: 'https://luxury.lutron.com/stories/hamptons-barnhouse-case-study',
           alt: 'Lutron Luxury v2 Hamptons Barnhouse Project Case Study'
         }
@@ -41,7 +37,7 @@ const caseStudy = {
       ],
       images: [
         {
-          src: imageGalleryImage,
+          src: "lutron-image-gallery.webp",
           link: 'https://luxury.lutron.com/gallery',
           alt: 'Lutron Luxury v2 Image Gallery'
         }

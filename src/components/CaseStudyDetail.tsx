@@ -65,7 +65,7 @@ const CaseStudyDetail = ({
       btnTxtColor={btnColor}
       btnColor={btnBgColor}
     />
-    <ImageHero imageAsset={image} alt={title} />
+    <ImageHero imagePath={image} alt={title} />
 
     {sections.map((section, key) => (
       <Section key={key} {...section.props}>
@@ -81,7 +81,7 @@ const CaseStudyDetail = ({
           {section.images? (section.images.map(image => (
             <div className="flex justify-center">
               <ImageHero
-                imageAsset={image.src}
+                imagePath={image.src}
                 alt={image.alt}
                 link={image.link}
               />

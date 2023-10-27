@@ -5,8 +5,6 @@ import PageHero from '../components/PageHero';
 import Section from '../components/Section';
 import Heading2 from '../components/heading2';
 import ImageHero from '../components/ImageHero';
-import certificateImage from '../assets/images/acquia-certificate.webp';
-import award from '../assets/images/ehealthcare-leadership.webp';
 import Layout from '../components/layout';
 import TextCopy from '../components/TextCopy';
 import { Link } from 'gatsby';
@@ -21,7 +19,7 @@ const Recognition = () => (
           <ImageHero
             alt="2022 eHealthcare Leadership Awards"
             link="https://ehealthcareawards.com/2022-winners/best-site-design/"
-            imageAsset={award}
+            imagePath="ehealthcare-leadership.webp"
           />
           <TextCopy>
             <p>
@@ -35,7 +33,7 @@ const Recognition = () => (
           <Heading2 text="2018 Acquia Certified Drupal Developer - Drupal 8" />
           <ImageHero
             alt="Acquia Certified Drupal Developer - Drupal 8"
-            imageAsset={certificateImage}
+            imagePath="acquia-certificate.webp"
           />
         </>
       </Section>

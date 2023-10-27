@@ -1,8 +1,6 @@
 import React from 'react';
 import Layout from '../../components/layout';
 import Seo from '../../components/seo';
-import cohImage from '../../assets/images/city-of-hope.webp';
-import awardImage from '../../assets/images/ehealthcare-leadership.webp';
 import CaseStudyDetail from '../../components/CaseStudyDetail';
 
 const caseStudy = {
@@ -12,7 +10,7 @@ const caseStudy = {
   showLink: true,
   link: 'https://www.cityofhope.org',
   path: '/case-studies/city-of-hope',
-  image: cohImage,
+  image: 'city-of-hope.webp',
   sections: [
     {
       heading: 'Award Winning Development',
@@ -22,7 +20,7 @@ const caseStudy = {
       images: [
         {
           link: 'https://ehealthcareawards.com/2022-winners/best-site-design/',
-          src: awardImage,
+          src: 'ehealthcare-leadership.webp',
           alt: 'eHealthcare Leadership Awards'
         }
       ]

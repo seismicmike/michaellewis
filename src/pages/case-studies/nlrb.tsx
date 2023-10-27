@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../../components/layout';
 import Seo from '../../components/seo';
-import image from '../../assets/images/nlrb.webp';
 import CaseStudyDetail from '../../components/CaseStudyDetail';
 
 const caseStudy = {
@@ -11,7 +10,7 @@ const caseStudy = {
   showLink: true,
   link: 'https://www.nlrb.gov',
   path: '/case-studies/nlrb',
-  image: image,
+  image: "nlrb.webp",
   sections: [
     {
       heading: 'Rescuing a Derailed Project',

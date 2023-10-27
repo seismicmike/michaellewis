@@ -1,16 +1,11 @@
 import React from 'react';
 
-import cohAsset from '../assets/images/city-of-hope.webp';
-import cbgAsset from '../assets/images/chicago-botanic.webp';
-import lutronAsset from '../assets/images/lutron-luxury.webp';
-import nlrbAsset from '../assets/images/nlrb.webp';
-import mfbAsset from '../assets/images/myfembree.webp';
 import CaseStudySearchResult from './CaseStudySearchResult';
 
 const studies = [
   {
     id: 1,
-    asset: cohAsset,
+    asset: "city-of-hope.webp",
     path: '/case-studies/city-of-hope',
     title: 'City of Hope',
     description:
@@ -21,7 +16,7 @@ const studies = [
   },
   {
     id: 2,
-    asset: lutronAsset,
+    asset: "lutron-luxury.webp",
     title: 'Lutron Luxury',
     path: '/case-studies/lutron-luxury',
     tags: ['Drupal', 'Acquia Site Studio', 'Leadership', 'Front-End'],
@@ -31,7 +26,7 @@ const studies = [
   },
   {
     id: 3,
-    asset: cbgAsset,
+    asset: "chicago-botanic.webp",
     title: 'Chicago Botanic Garden',
     path: '/case-studies/chicago-botanic',
     tags: ['Drupal', 'eCommerce', 'API Integrations'],
@@ -41,7 +36,7 @@ const studies = [
   },
   {
     id: 4,
-    asset: nlrbAsset,
+    asset: "nlrb.webp",
     title: 'National Labor Relations Board',
     path: '/case-studies/nlrb',
     tags: ['Drupal', 'Apache Solr', 'Single Sign On', 'Content Translation'],
@@ -51,7 +46,7 @@ const studies = [
   },
   {
     id: 5,
-    asset: mfbAsset,
+    asset: "myfembree.webp",
     title: 'MyFembree',
     path: '/case-studies/myfembree',
     tags: ['React', 'Gatsby', 'CSS', 'Front-End'],

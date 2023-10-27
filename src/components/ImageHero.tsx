@@ -1,30 +1,33 @@
 import React from 'react';
 import Section from './Section';
+import Image from './Image';
 
 export interface ImageHeroProps {
-  imageAsset: any;
+  imagePath: string;
   link?: string;
   alt?: string;
   bgColor?: string;
 }
 
 const ImageHero = ({
-  imageAsset,
+  imagePath,
   link = '',
   alt = '',
   bgColor = 'white-100'
-}: ImageHeroProps) => (
-  <Section bgColor={bgColor} className="flex">
+}: ImageHeroProps) => {
+  return (
+    <Section bgColor={bgColor} className="flex">
     <>
       {link ? (
         <a href={link} target="_blank">
-          <img src={imageAsset} alt={alt} />
+          <Image src={imagePath} alt={alt} />
         </a>
       ) : (
-        <img src={imageAsset} alt={alt} />
+        <Image src={imagePath} alt={alt} />
       )}
     </>
   </Section>
-);
+  )
+};
 
 export default ImageHero;
