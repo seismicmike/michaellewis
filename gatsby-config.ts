@@ -20,7 +20,7 @@ module.exports = {
     title: `Michael Lewis | Award Winning Certified Drupal Developer Profile`,
     description: `Michael Lewis is an Acquia Certified, Award Winning Web Developer who has 15 years of experience in technologies such as Drupal, React, Python, and Google Cloud.`,
     author: `@seismicmike`,
-    siteUrl: `https://michaellewisdeveloper.com/`
+    siteUrl: `https://michaellewis.netlify.app/`
   },
   plugins: [
     'gatsby-plugin-sass',
