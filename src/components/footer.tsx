@@ -26,6 +26,12 @@ const navLinks = [
     external: true
   },
   {
+    id: 5,
+    title: 'Recognition',
+    path: '/recognition',
+    external: false,
+  },
+  {
     id: 4,
     title: 'Bio',
     path: '/about',
