@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../../components/layout';
 import Seo from '../../components/seo';
-import image from '../../assets/images/myfembree.webp';
 import CaseStudyDetail from '../../components/CaseStudyDetail';
 
 const caseStudy = {
@@ -11,7 +10,7 @@ const caseStudy = {
   showLink: true,
   link: 'https://www.myfembree.com',
   path: '/case-studies/myfembree',
-  image: image,
+  image: "myfembree.webp",
   sections: [
     {
       heading: 'Fast Compliant Website',
