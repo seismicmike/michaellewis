@@ -81,7 +81,7 @@ const CaseStudyTemplate = ({
 export const Head = ({ data: { markdownRemark: post } }) => (
   <Seo
     title={`${post.frontmatter.title} | Michael Lewis`}
-    description={post.frontmatter.description || post.excerpt}
+    description={post.frontmatter.description}
   />
 );
 
@@ -100,7 +100,6 @@ export const pageQuery = graphql`
     }
     markdownRemark(id: { eq: $id }) {
       id
-      excerpt(pruneLength: 160)
       html
       frontmatter {
         title
