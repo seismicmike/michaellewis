@@ -70,7 +70,7 @@ const CaseStudiesPage = ({ data, location }) => {
                           />
                         </div>
                         <div
-                          className={`case-study-result__description text-lg mb-4`}
+                          className={`case-study-result__description text-lg mb-8`}
                         >
                           {post.frontmatter.description}
                         </div>

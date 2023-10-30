@@ -5,7 +5,7 @@ date: "2023-10-16T12:00:00.000Z"
 description: "VMLY&R -> VML Rebrand and Design Refresh to Support Merger with Wunderman Thompson."
 featured: false
 showDate: true
-published: true
+published: false
 showLink: true
 link: "https://www.vml.com"
 btnColor: "blue-100"

@@ -1,2 +1,15 @@
 @import '../base/base';
 @import '../base/typography';
+
+header {
+    .header--desktop__menu .header--desktop__menu-item,
+    .header--mobile__menu .header--mobile__menu-item {
+      a {
+        color: $color-blue-090;
+  
+        &:active {
+          color: $color-blue-060;
+        }
+      }
+    }
+  }

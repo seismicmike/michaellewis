@@ -16,6 +16,26 @@ p {
   color: $color-rich-black-075;
 }
 
+a {
+  color: $color-blue-050;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 2.1875rem;
+  font-family: "Raleway", sans-serif;
+
+  &:active {
+    color: $color-blue-070;
+  }
+
+  &:visited {
+    color: $color-blue-080;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 h1 {
   font-weight: 700;
   font-size: 4rem;
