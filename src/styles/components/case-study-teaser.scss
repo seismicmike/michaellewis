@@ -1,0 +1,9 @@
+@import '../base/base';
+@import '../base/typography';
+
+.case-study-result__skills li:not(:last-of-type) {
+    
+    &::after {
+        content: ", ";
+    }
+}

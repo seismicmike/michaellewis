@@ -1,6 +1,6 @@
 import React from "react";
 import DownloadIcon from '../assets/svgs/download.svg';
-import resumeFile from '../assets/documents/Michael-Lewis_Resume_2023-10-26.pdf';
+import resumeFile from '../assets/documents/MichaelLewis.pdf';
 import { Link } from "gatsby";
 import Button from "./Button";
 

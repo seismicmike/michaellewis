@@ -22,9 +22,9 @@ const Image = ({ src, alt, className }: ImageProps) => {
     }
   `);
 
-  console.log(data);
-
-  const imageNode = data.allFile.nodes.find(node => node.relativePath === src);
+  const imageNode = data.allFile.nodes.find(node => {
+    return node.relativePath === src
+  });
   const image = getImage(imageNode);
 
   if (!image) {

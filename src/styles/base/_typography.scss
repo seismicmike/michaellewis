@@ -1,9 +1,72 @@
 @import '../abstracts/variables';
 
 body {
-    font-family: "Libre Franklin", sans-serif;
-    font-weight: 400;
-    /*font-size: 16px;*/
-    line-height: 1.7;
-    color: $color-rich-black-075;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  /*font-size: 16px;*/
+  line-height: 1.7;
+  color: $color-rich-black-075;
 }
+
+p {
+  font-family: 'Raleway', 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  line-height: 2rem;
+  font-size: 1.75rem;
+  color: $color-rich-black-075;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', 'Libre Franklin', sans-serif;
+  color: $color-rich-black-075;
+  font-weight: 600;
+}
+
+h2 {
+  margin-bottom: 4rem;
+  font-size: 3.125rem;
+  line-height: 3.875rem;
+}
+
+h3 {
+  font-size: 2.875rem;
+  line-height: 3rem;
+  margin-bottom: 3.75rem;
+}
+
+h4 {
+  margin-bottom: 3.5rem;
+  font-size: 2.375rem;
+  line-height: 3rem;
+}
+
+h5 {
+  margin-bottom: 3rem;
+  font-size: 2.375rem;
+  line-height: 2.375rem;
+}
+
+h6 {
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  line-height: 2.75rem;
+}
+
+// sm5: ['1.125rem', '1.5rem'], // 18px 24px
+// md: ['1.375rem', '1.75rem'], // 22px 28px
+// md2: ['1.375rem', '2.1875rem'], // 22px 35px
+// md3: ['1.5rem', '2.375rem'], // 24px 38px
+// md4: ['1.75rem', '2.1875rem'], // 28px 35px
+// md5: ['1.75rem', '2.375rem'], // 28px 38px
+// lg: ['2rem', '2.375rem'], // 32px 38px
+// lg2: ['2rem', '2.75rem'], // 32px 44px
