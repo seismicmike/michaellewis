@@ -5,4 +5,24 @@
   p {
     margin-bottom: 1.5rem;
   }
+
+  .image-grid {
+    .image-grid-figcaption {
+      font-size: 1.75rem;
+      font-weight: 500;
+      line-height: 2.1875rem;
+    }
+  }
+}
+
+.case-study-nav {
+  li {
+    a {
+      color: $color-blue-100;
+      font-size: 1.75rem;
+      font-weight: 500;
+      line-height: 2.1875rem;
+      font-family: "Raleway", sans-serif;
+    }
+  }
 }

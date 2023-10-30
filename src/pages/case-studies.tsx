@@ -70,13 +70,13 @@ const CaseStudiesPage = ({ data, location }) => {
                           />
                         </div>
                         <div
-                          className={`case-study-result__description text-lg `}
+                          className={`case-study-result__description text-lg mb-4`}
                         >
                           {post.frontmatter.description}
                         </div>
                         {post.frontmatter.tags.length !== 0 ? (
                           <div className="text-md3 mt-2">
-                            <span>Skills Featured:</span>{' '}
+                            <span className="font-bold">Skills Featured: </span>
                             <ul className="case-study-result__skills inline">
                               {post.frontmatter.tags.map(tag => (
                                 <li className="inline">{tag}</li>
