@@ -1,0 +1,36 @@
+@import '../base/base';
+@import '../base/typography';
+
+.case-study-result__skills li:not(:last-of-type) {
+  &::after {
+    content: ', ';
+  }
+}
+
+.case-study-teaser {
+  a {
+    &:hover {
+      text-decoration: none;
+      .case-study-teaser__title {
+        text-decoration: underline;
+      }
+    }
+
+    .case-study-teaser__description {
+      color: $color-rich-black-075;
+    }
+  }
+}
+
+article.case-study-list-item {
+  a {
+    color: $color-rich-black-075;
+
+    &:hover {
+      text-decoration: none;
+      .case-study-result__title h2 {
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -13,9 +13,9 @@ const Section = ({
   className = "",
   children
 }: SectionProps) => (
-  <div className={`section py-8 py-16 text-${color} bg-${bgColor} ${className}`}>
+  <section className={`section py-8 py-16 text-${color} bg-${bgColor} ${className}`}>
     <div className="section__inner max-w-75p mx-auto">{children}</div>
-  </div>
+  </section>
 );
 
 export default Section;

@@ -1,3 +1,14 @@
 @import '../base/base';
 @import '../base/typography';
 
+footer {
+  .footer__menu .footer__menu-links .footer__menu-link {
+    a {
+      color: $color-white;
+
+      &:active {
+        color: $color-blue-020;
+      }
+    }
+  }
+}

@@ -58,6 +58,9 @@ typings/
 .cache/
 public
 
+# Windows files
+*:Zone.Identifier
+
 # Mac files
 .DS_Store
 

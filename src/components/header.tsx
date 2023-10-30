@@ -7,7 +7,7 @@ import Close from '../assets/svgs/close.svg';
 import Linkedin from '../assets/svgs/linkedin.svg';
 import profilePic from '../assets/images/profile-pic.webp';
 import ResumeButton from "./ResumeButton";
-import resumeFile from '../assets/documents/Michael-Lewis_Resume_2023-10-26.pdf';
+import resumeFile from '../assets/documents/MichaelLewis.pdf';
 
 const navLinks = [
   {
@@ -94,7 +94,7 @@ const Header = ({ siteTitle }: { siteTitle: string }) => {
           <div className="header--desktop__download-resume mr-auto">
             <ResumeButton />
           </div>
-          <div className="header--desktop__nav">
+          <nav className="header--desktop__nav">
             <ul className="header--desktop__menu font-raleway flex text-lg gap-8 items-center">
               {navLinks.map(item => (
                 <li
@@ -111,7 +111,7 @@ const Header = ({ siteTitle }: { siteTitle: string }) => {
                 </li>
               ))}
             </ul>
-          </div>
+          </nav>
           <div className="header--desktop__social-icons">
             <a
               href="https://www.linkedin.com/in/michael-lewis-74b6143/"

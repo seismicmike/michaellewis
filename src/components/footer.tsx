@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 import '../styles/components/footer.scss';
 import Linkedin from '../assets/svgs/linkedin.svg';
-import resumeFile from '../assets/documents/Michael-Lewis_Resume_2023-10-26.pdf';
+import resumeFile from '../assets/documents/MichaelLewis.pdf';
 import Heading2 from './heading2';
 
 const navLinks = [
@@ -65,7 +65,7 @@ const Footer = () => {
           <div className="footer__name">
             <Heading2 color="text-white-100" text="Michael Lewis" />
           </div>
-          <div className="footer__menu text-white-100 mb-16">
+          <nav className="footer__menu text-white-100 mb-16">
             <ul className="footer__menu-links font-raleway flex flex-col text-lg gap-8 items-start sm:flex-row sm:text-right sm:items-end">
               {navLinks.map(item => (
                 <li key={item.id} className="footer__menu-link">
@@ -88,7 +88,7 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
         <div className="footer__social"></div>
       </div>

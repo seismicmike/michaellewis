@@ -6,7 +6,7 @@ import FrontHero from "../components/FrontHero";
 import StatsBanner from "../components/StatsBanner";
 import FeaturedStudies from "../components/FeaturedStudies";
 import SkillsBanner from "../components/SkillsBanner";
-import ImageHero from "../components/ImageHero";
+import '../styles/components/case-study-teaser.scss';
 
 const stats = [
   {

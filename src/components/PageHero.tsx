@@ -5,9 +5,9 @@ export interface PageHeroProps {
 }
 
 const PageHero = ({title}: PageHeroProps) => (
-  <div className="page-hero max-w-75p mx-auto font-franklin font-bold text-xxl2">
+  <header className="page-hero max-w-75p mx-auto font-franklin font-bold text-xxl2">
     <h1 className="page-hero__heading">{title}</h1>
-  </div>
+  </header>
 );
 
 export default PageHero;

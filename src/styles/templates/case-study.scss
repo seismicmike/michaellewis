@@ -1,0 +1,16 @@
+@import '../base/base';
+@import '../base/typography';
+
+.case-study-body {
+  p {
+    margin-bottom: 1.5rem;
+  }
+
+  .image-grid {
+    .image-grid-figcaption {
+      font-size: 1.75rem;
+      font-weight: 500;
+      line-height: 2.1875rem;
+    }
+  }
+}
