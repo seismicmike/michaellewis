@@ -2,7 +2,7 @@
 id: chicago-botanic
 title: Chicago Botanical Garden
 date: "2017-10-23T12:00:00.000Z"
-description: "A complete data migration from Oracle with a fresh design, user experience, authoring back-end, and highly tuned search to empower City of Hope to lead the fight against cancer."
+description: "An e-commerce point of sale to provide guests of the garden to find event times and purchase tickets."
 featured: true
 showDate: true
 showLink: false
